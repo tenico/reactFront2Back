@@ -1,8 +1,13 @@
-import React from 'react'
-
-function App(){
-    return  React.createElement('div',{ className: 'container'},React.createElement('h1',{},'Hello World!'))
-    
+import Header from "./components/Header"
+function App() {
+    return (
+        <>
+            <Header />
+            <div className='container'>
+                <h1> My app</h1>
+            </div>
+        </>
+    )
 }
 
 export default App
